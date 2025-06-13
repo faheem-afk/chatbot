@@ -81,9 +81,9 @@ if not st.session_state.interview_started:
         # when user hits the submit button
         if start:
             if not all([full_name, email, phone, desired_positions, location, tech_stack]): #all fields are mandatory
-                st.error("🚨 Please fill in all fields before continuing.")
+                st.error("Please fill in all fields before continuing.")
             else:
-                st.success("✅ All details submitted successfully!")
+                st.success("All details submitted successfully!")
                 st.session_state.interview_started = True
                 st.session_state.question_count = 0
                 st.session_state.interview_ended = False
