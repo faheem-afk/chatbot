@@ -141,8 +141,8 @@ client_id = "..."
 How to Run It?
 	1.	Clone the repo:
 
-git clone https://github.com/yourusername/interview-bot.git
-cd interview-bot
+git clone https://github.com/faheem-afk/chatbot.git
+cd chatbot
 
 
 	2.	Install requirements:
